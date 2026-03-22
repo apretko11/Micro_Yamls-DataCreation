@@ -1,0 +1,6 @@
+model_name_or_path: adpretko/HyperstackTrainTest-armv8-O2-native-clang-02percent
+template: qwen
+infer_backend: vllm 
+vllm_maxlen: 32768
+infer_dtype: bfloat16
+vllm_gpu_util: 0.9
